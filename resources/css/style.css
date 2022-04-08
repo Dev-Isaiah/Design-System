@@ -1,0 +1,194 @@
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/montserrat/v23/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCtr6Hw5aXo.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+@font-face {
+    font-family: 'IBM Plex Serif';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/ibmplexserif/v14/jizDREVNn1dOx-zrZ2X3pZvkTiUf2zc.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+@font-face {
+    font-family: 'Merriweather';
+    font-style: normal, italic;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/merriweather/v28/u-4m0qyriQwlOrhSvowK_l5-eRZOf-I.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400, 800;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/poppins/v19/pxiEyp8kv8JHgFVrJJfecg.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+h1,
+h2,
+h3
+ {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+table th, td{
+    padding: 45px;
+    text-align: left;
+}
+
+table th{
+    font-size: 20px;
+    border-bottom: 1px solid #000000;
+}
+
+table td{
+    font-size: 18px;
+    border-bottom: 1px solid #8d8d8d;
+}
+
+button{
+    padding: 1% 5%;
+    font-size: 16px;
+    box-shadow: none;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #ffffff;
+    color: #000000;
+}
+
+h1 {
+    font-size: 72px;
+    color: #FA9F42;
+}
+
+h2 {
+    font-size: 42px;
+}
+
+h3 {
+    font-size: 36px;
+    font-weight: 400;
+}
+
+p {
+    font-family: "Merriweather", serif;
+}
+
+body {
+    padding: 0 7%;
+}
+
+/* Color Section */
+
+#color-palette{
+    margin: 150px 0;
+}
+
+.panel-section {
+    display: inline-block;
+    width: 33.3%;
+    margin-top: 50px;
+}
+
+.color-panel {
+    width: 60%;
+    padding: 5%;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.primary {
+    background-color: #0077B6;
+    color: #ffffff;
+}
+
+.secondary {
+    background-color: #1C1D21;
+    color: #ffffff;
+}
+
+.accent {
+    background-color: #B63F00;
+    color: #ffffff;
+}
+
+.success {
+    background-color: #0CF574;
+    color: #ffffff;
+}
+
+.info {
+    background-color: #88CCF1;
+    color: #ffffff;
+}
+
+.warning {
+    background-color: #ECFF00;
+    color: #000000;
+}
+
+.error {
+    background-color: #B6001C;
+    color: #ffffff;
+}
+
+.color-title {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+/* Button Section */
+
+#buttons{
+    margin-bottom: 150px;
+}
+
+.primary-btn{
+    background: #0077B6;
+    color: #ffffff;
+    border-color: #0077B6;
+}
+
+.secondary-btn{
+    background-color: #1C1D21;
+    color: #ffffff;
+}
+
+/* Font Section */
+
+.ibm-plex-serif-example{
+    font-family: "IBM Plex Serif", serif;
+}
+
+.montserrat-example{
+    font-family: "Montserrat", sans-serif;
+}
+
+.text-element-table{
+    width: 100%;
+}
+
+.sub-heading{
+    margin-top: 100px;
+}
+
+.heading{
+    margin-top: 80px;
+}
